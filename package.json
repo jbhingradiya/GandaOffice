@@ -1,0 +1,24 @@
+{
+  "name": "BookieFoodie",
+  "version": "0.0.1",
+  "description": "Read while you Eat",
+  "author": "RealMile",
+  "license": "Apache 2",
+  "devDependencies": {
+    "director": "^1.2.8",
+    "es6-promise": "^1.0.0",
+    "flux": "^2.0.1",
+    "gulp": "^3.8.11",
+    "del": "^2.2.0",
+    "gulp-browserify": "^0.5.0",
+    "gulp-concat": "^2.2.0",
+    "object-assign": "^1.0.0",
+    "react": "^0.14.3",
+    "react-addons-linked-state-mixin": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-masonry-component": "^2.0.0",
+    "react-tagged-input": "0.0.18",
+    "reactify": "^0.13.1",
+    "validator": "^4.4.0"
+  }
+}
