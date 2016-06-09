@@ -2,7 +2,7 @@
   "name": "Myoffice",
   "version": "0.0.1",
   "description": "Read while you Eat",
-  "author": "jb",
+  "author": "Sud123",
   "license": "Apache 2",
   "devDependencies": {
     "director": "^1.2.8",
