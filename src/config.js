@@ -3,8 +3,7 @@ var CONFIG = {};
   /** Load config and then initiate App */
   function fetchConfig() {
     var systemEnvironment = "local";
-    //var domain = "agitix.com";
-    //var configUrl = systemEnvironment != 'prod' ? "//bfd-config-" + systemEnvironment + "." + domain + "/config.json" : "//config." + domain + "/config.json";
+
     if (systemEnvironment != 'local') {
       $.ajax({
         url: configUrl,
@@ -24,9 +23,8 @@ var CONFIG = {};
     } else {
       domain = "realmile.com";
       CONFIG = {
-        siteUrl: 'http://www.bookiefoodie.com/',
-        apiUrl: 'https://bfd-api-' + systemEnvironment + '.' + domain + '/app/1.0/',
-        bookApi: 'https://www.googleapis.com/books/v1/volumes'
+        siteUrl: 'http://www.myoffice.com/',
+        apiUrl: 'https://mfo-api-' + systemEnvironment + '.' + domain + '/app/1.0/',
       };
       setTimeout(function () {
         console.log('config loaded');
