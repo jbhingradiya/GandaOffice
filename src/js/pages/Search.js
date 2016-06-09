@@ -9,9 +9,6 @@ var DefaultLayout = React.createFactory(require('../layouts/Default'));
 var validator = require('validator');
 var AppConfig = require('../appConfig.js');
 var Masonry = React.createFactory(require('react-masonry-component')(React));
-var BookSlider = React.createFactory(require('../components/bookSlider'));
-var Book = React.createFactory(require('../components/Book'));
-var GBook = React.createFactory(require('../components/GBook'));
 var masonryOptions = {gutter: 10};
 var books = [
   {

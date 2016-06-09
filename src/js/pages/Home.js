@@ -6,8 +6,6 @@ var DefaultLayout = React.createFactory(require('../layouts/Default'));
 var AppActions = require('../actions/AppActions');
 var AppStore = require('../stores/AppStore');
 var AppConfig = require('../appConfig.js');
-var ReferModal = React.createFactory(require('../components/referModal'));
-var BookSlider = React.createFactory(require('../components/bookSlider'));
 var Login = React.createFactory(require('../components/Login'));
 var Search_Destination = React.createFactory(require('../components/search_destination'));
 
